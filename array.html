@@ -10,7 +10,14 @@
     <script>
         var category = [
             "AllItem", "Beverage","Daily Bread & Eggs","Fruits & Vegetables"];
-            document.write(category[0]);
+            document.write(category+ "<br>");
+
+            //for loop in array
+            var i;
+            for(i=0; i<category.length; i=i+1){
+                document.write(i + " " + category[i] + "<br>")
+            }
+
     </script>
 </body>
 </html>
