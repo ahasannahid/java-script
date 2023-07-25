@@ -18,7 +18,12 @@
             disk: "512GB",
             processor: "Ryzen-5"
         }
-        document.write(myPC['brand']);//bracket notation
+        document.write(myPC['brand'] +"<br>");//bracket notation
+
+        // for in loop in object
+        for(var item in myPC){
+            document.write(item + " : " + myPC[item] +"<br>")
+        }
     </script>
 </body>
 </html>
