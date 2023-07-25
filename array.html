@@ -13,10 +13,17 @@
             document.write(category+ "<br>");
 
             //for loop in array
-            var i;
+           /* var i;
             for(i=0; i<category.length; i=i+1){
                 document.write(i + " " + category[i] + "<br>")
+            } */
+
+             //for in loop in array
+            for(var item in category){
+                document.write(item + " " + category[item] +"<br>")
             }
+
+
 
     </script>
 </body>
