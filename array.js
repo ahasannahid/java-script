@@ -37,7 +37,11 @@ numberArray.forEach(function(item){
 })
 
 // includes and indexOf method
+// array te kisu exist na korle tar index -1.
 
 var number = [30, 32,34,80,90,59];
 var result3 = number.includes(32);
 console.log(result3);
+
+var result4 = number.indexOf(32);
+console.log(result4);
