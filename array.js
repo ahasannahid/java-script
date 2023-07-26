@@ -30,10 +30,14 @@ var result2 = numbersArray.findIndex(function(value){
 console.log(result2);
 
 // for each method
-
 var numberArray = [30, 32,34,80,90,59];
 
 numberArray.forEach(function(item){
     console.log(item)
 })
 
+// includes and indexOf method
+
+var number = [30, 32,34,80,90,59];
+var result3 = number.includes(32);
+console.log(result3);
