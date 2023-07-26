@@ -20,6 +20,6 @@ var result1= numbersArray.slice(1,3);
 // splice method
 // numbersArray.splice(index,removeCount,item)
 numbersArray.splice(1,3,3);
-console.log(numbersArray);
+// console.log(numbersArray);
 
 
