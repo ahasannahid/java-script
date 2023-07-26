@@ -11,3 +11,13 @@ var name = 'Ahasan Habib Nahid'
 
 var nameArray = Array.from(name);
 console.log(nameArray);
+
+// array filter
+
+var numbersArray = [30, 32,34,80,90,59];
+
+var result = numbersArray.filter(function(item){
+    return item>50;
+});
+console.log(result);
+
