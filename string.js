@@ -12,7 +12,9 @@ var country1 = "India";
 // console.log(country.replace('desh','deshi'));
 // console.log(country.substr(0,4))
 
-console.log(country.substring(1,10))
+// console.log(country.substring(1,10))
+
+
 
 
 
