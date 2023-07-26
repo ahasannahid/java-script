@@ -21,3 +21,10 @@ var result = numbersArray.filter(function(item){
 });
 console.log(result);
 
+// array find and find index
+
+var result1 = numbersArray.find(function(value){
+    return value<35;
+})
+console.log(result1);
+
