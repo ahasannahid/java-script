@@ -28,3 +28,8 @@ var result1 = numbersArray.find(function(value){
 })
 console.log(result1);
 
+var result2 = numbersArray.findIndex(function(value){
+    return value<35;
+})
+console.log(result2);
+
