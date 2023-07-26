@@ -15,5 +15,11 @@ numberArray.pop();
 var numbersArray = [80,90, 30, 32,34,59];
 // console.log(numbersArray.sort().reverse());
 var result1= numbersArray.slice(1,3);
-console.log(result1);
+// console.log(result1);
+
+// splice method
+// numbersArray.splice(index,removeCount,item)
+numbersArray.splice(1,3,3);
+console.log(numbersArray);
+
 
