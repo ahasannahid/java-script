@@ -3,12 +3,12 @@
 
 // Regular function
 function onLogIn(){
-    console.log("LogIn success. Regular function!");
+    // console.log("LogIn success. Regular function!");
 };
 onLogIn();
 // Arrow function
 const onLogIn1 = () => {
-    console.log("LogIn success. Arrow function!");
+    // console.log("LogIn success. Arrow function!");
 };
 onLogIn1();
 
@@ -36,15 +36,27 @@ const fun2 = async() => {
 
 // function parameter
 function addTwo(x, y){
- console.log(x+y);
+//  console.log(x+y);
 }
 addTwo(5,7);
 
-// res parameter(array return korbe)
+// rest parameter(array return korbe)
 
 function addTwo1(...a){
-    console.log(a);
+    // console.log(a);
    }
-
-
 addTwo1(5,7,3,4,2,6,4);
+
+// function return
+function marks(written, viva){
+    return written + viva;
+}
+let assignment = 5;
+let total = marks(70,10)+assignment;
+// console.log(total);
+
+// IIF function. jei function ke call korte hoyna. immediately invoked(execute) function
+
+(()=>{
+    console.log("I am from IIF")
+})()
