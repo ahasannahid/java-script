@@ -60,3 +60,7 @@ let total = marks(70,10)+assignment;
 (()=>{
     console.log("I am from IIF")
 })()
+
+(async()=>{
+    console.log("I am from IIF")
+})()
