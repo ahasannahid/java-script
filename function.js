@@ -39,3 +39,12 @@ function addTwo(x, y){
  console.log(x+y);
 }
 addTwo(5,7);
+
+// res parameter(array return korbe)
+
+function addTwo1(...a){
+    console.log(a);
+   }
+
+
+addTwo1(5,7,3,4,2,6,4);
