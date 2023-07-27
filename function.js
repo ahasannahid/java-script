@@ -20,13 +20,15 @@ ei function execute er age onno kisu execute hobe na . eijonne async use kora ho
 
  */ 
 
-async function onSignUp (){
-    console.log('I am sign up')
+async function fun1 (){
+    await fetch("");
 };
 
-const onLogIn2 = async() => {
-    console.log("LogIn success. Async Arrow function!");
+const fun2 = async() => {
+    await fetch("");
 };
 
-onLogIn2();
-onSignUp();
+fun1();
+fun2();
+
+// async await er kaj callback or promise use kore kora jay but not recommended
