@@ -28,7 +28,14 @@ const fun2 = async() => {
     await fetch("");
 };
 
-fun1();
-fun2();
+// fun1();
+// fun2();
 
 // async await er kaj callback or promise use kore kora jay but not recommended
+
+
+// function parameter
+function addTwo(x, y){
+ console.log(x+y);
+}
+addTwo(5,7);
